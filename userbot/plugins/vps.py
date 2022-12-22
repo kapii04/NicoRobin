@@ -49,7 +49,7 @@ async def switch_branch():
     with open(config, "r") as f:
         configs = f.read()
     BRANCH = "master"
-    REPO = "https://github.com/TgCatUB/catuserbot"
+    REPO = "https://github.com/kapii04/NicoRobin"
     for match in re.finditer(
         r"(?:(UPSTREAM_REPO|UPSTREAM_REPO_BRANCH)(?:[ = \"\']+(.*[^\"\'\n])))",
         configs,
