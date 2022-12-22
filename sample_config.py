@@ -173,7 +173,7 @@ class Config(object):
     if BADCAT_REPO and not url(BADCAT_REPO):
         BADCAT_REPO = "https://github.com/kapii04/NicoRobinPlug"
     BADCAT_REPOBRANCH = os.environ.get("BADCAT_REPOBRANCH", "badcat")
-    VC_REPO = os.environ.get("VC_REPO", "https://github.com/kapii04/erehmusic")
+    VC_REPO = os.environ.get("VC_REPO", "https://github.com/kapii04/NicoRobinVc")
     VC_REPOBRANCH = os.environ.get("VC_REPOBRANCH", "test")
 
 
